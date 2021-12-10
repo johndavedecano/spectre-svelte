@@ -6,7 +6,7 @@
 <Meta title="Elements/Button" component={Button} />
 
 <Template let:args>
-  <Button {...args} on:click={args.onClick} />
+  <Button {...args} />
 </Template>
 
 <Story
@@ -81,9 +81,7 @@
   }}
 />
 
-<Story
-  name="Circle Icon"
->
+<Story name="Circle Icon">
   <Button variant="primary" action circle>
     <i class="icon icon-arrow-left" />
   </Button>

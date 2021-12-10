@@ -1,6 +1,4 @@
 <script>
-  import { createEventDispatcher } from "svelte";
-
   export let label = "";
 
   export let variant = "default";
@@ -29,15 +27,6 @@
     md: undefined,
     lg: "btn-lg",
   };
-
-  const dispatch = createEventDispatcher();
-
-  /**
-   * Optional click handler
-   */
-  function onClick(event) {
-    dispatch("click", event);
-  }
 
   $: getComputedClasses = () => {
     const classes = ["btn"];
@@ -75,7 +64,6 @@
   {type}
   {disabled}
   class={getComputedClasses()}
-  on:click={onClick}
 >
   <slot>{label}</slot>
 </button>
