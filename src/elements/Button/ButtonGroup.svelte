@@ -12,6 +12,6 @@
   };
 </script>
 
-<div {...$$props} class={getComputedClasses()}>
+<div {...$$restProps} class={getComputedClasses()}>
   <slot />
 </div>

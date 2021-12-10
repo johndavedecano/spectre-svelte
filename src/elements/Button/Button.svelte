@@ -65,6 +65,6 @@
   };
 </script>
 
-<button {...$$props} {type} {disabled} class={getComputedClasses()}>
+<button {...$$restProps} {type} {disabled} class={getComputedClasses()}>
   <slot>{label}</slot>
 </button>
