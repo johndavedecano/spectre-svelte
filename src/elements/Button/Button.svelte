@@ -15,6 +15,8 @@
 
   export let action = false;
 
+  export let customClass;
+
   const variants = {
     primary: "btn-primary",
     link: "btn-link",
@@ -55,15 +57,14 @@
       classes.push("s-circle");
     }
 
+    if (customClass) {
+      classes.push(customClass);
+    }
+
     return classes.join(" ");
   };
 </script>
 
-<button
-  {...$$props}
-  {type}
-  {disabled}
-  class={getComputedClasses()}
->
+<button {...$$props} {type} {disabled} class={getComputedClasses()}>
   <slot>{label}</slot>
 </button>
