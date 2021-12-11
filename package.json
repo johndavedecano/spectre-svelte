@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Spectre CSS Framework Components for SvelteJS",
   "private": true,
-  "author": "Chromatic <johndavedecano@gmail.com/>",
+  "author": "SvelteGuyPH <johndavedecano@gmail.com/>",
   "module": "dist/index.js",
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "@storybook/addon-essentials": "^6.4.0",
     "@storybook/addon-interactions": "^6.4.0",
     "@storybook/addon-links": "^6.4.0",
+    "@storybook/addon-storysource": "^6.4.9",
     "@storybook/addon-svelte-csf": "^1.1.0",
     "@storybook/svelte": "^6.4.0",
     "@storybook/testing-library": "^0.0.7",
