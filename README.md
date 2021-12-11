@@ -25,7 +25,7 @@ yarn storybook
 - [ ] Responsive
 - [ ] Hero
 - [ ] Navbar
-### COMPONENTS
+### Components
 - [ ] Accordions
 - [ ] Avatars
 - [ ] Badges
@@ -45,7 +45,7 @@ yarn storybook
 - [ ] Tiles
 - [ ] Toasts
 - [ ] Tooltips
-### UTILITIES
+### Utilities
 - [x] Colors
 - [x] Cursors
 - [x] Display
@@ -54,7 +54,7 @@ yarn storybook
 - [x] Position
 - [x] Shapes
 - [x] Text
-### EXPERIMENTALS
+### Experimentals
 - [ ] 360-Degree Viewer
 - [ ] Autocomplete
 - [ ] Calendars
