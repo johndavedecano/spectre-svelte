@@ -45,7 +45,7 @@ yarn storybook
 - [ ] Tiles
 - [ ] Toasts
 - [ ] Tooltips
-UTILITIES
+### UTILITIES
 - [x] Colors
 - [x] Cursors
 - [x] Display
@@ -54,7 +54,7 @@ UTILITIES
 - [x] Position
 - [x] Shapes
 - [x] Text
-EXPERIMENTALS
+### EXPERIMENTALS
 - [ ] 360-Degree Viewer
 - [ ] Autocomplete
 - [ ] Calendars
