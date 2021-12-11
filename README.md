@@ -11,6 +11,63 @@ yarn
 yarn storybook
 ```
 
+### Elements
+- [x] Typography
+- [x] Tables
+- [x] Buttons
+- [ ] Forms
+- [ ] Icons.css
+- [ ] Labels
+- [x] Code
+- [ ] Media
+### Layout
+- [ ] Flexbox grid
+- [ ] Responsive
+- [ ] Hero
+- [ ] Navbar
+### COMPONENTS
+- [ ] Accordions
+- [ ] Avatars
+- [ ] Badges
+- [ ] Bars
+- [ ] Breadcrumbs
+- [ ] Cards
+- [ ] Chips
+- [ ] Empty states
+- [ ] Menu
+- [ ] Modals
+- [ ] Nav
+- [ ] Pagination
+- [ ] Panels
+- [ ] Popovers
+- [ ] Steps
+- [ ] Tabs
+- [ ] Tiles
+- [ ] Toasts
+- [ ] Tooltips
+UTILITIES
+- [x] Colors
+- [x] Cursors
+- [x] Display
+- [ ] Divider
+- [ ] Loading
+- [x] Position
+- [x] Shapes
+- [x] Text
+EXPERIMENTALS
+- [ ] 360-Degree Viewer
+- [ ] Autocomplete
+- [ ] Calendars
+- [ ] Carousels
+- [ ] Comparison sliders
+- [ ] Filters
+- [ ] Meters
+- [ ] Off-canvas
+- [ ] Parallax
+- [ ] Progress
+- [ ] Sliders
+- [ ] Timelines
+
 ## Contribute
 
 Pending
