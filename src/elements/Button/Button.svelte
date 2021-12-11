@@ -15,7 +15,7 @@
 
   export let action = false;
 
-  export let customClass;
+  export let customClass = "";
 
   const variants = {
     primary: "btn-primary",

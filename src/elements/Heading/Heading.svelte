@@ -3,7 +3,7 @@
 
   export let variant = "h1";
 
-  export let customClass;
+  export let customClass = "";
 
   $: getComputedClasses = () => {
     const classes = [];

@@ -1,5 +1,5 @@
 <script>
-  export let customClass;
+  export let customClass = "";
 
   export let striped = false;
 
